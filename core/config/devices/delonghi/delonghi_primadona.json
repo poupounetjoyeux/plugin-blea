@@ -1,0 +1,81 @@
+{
+    "delonghi": {
+        "name": "Delonghi PrimaDona",
+        "groupe" : "Automatisme",
+		"configuration" : {
+			"cancontrol" : 1,
+			"name" : "delonghi_primadona"
+		},
+		"commands": [
+			{
+				"name": "Profile 1",
+                "type": "action",
+                "subtype": "other",
+                "isVisible": 1,
+                "unite": "",
+                "logicalId": "name:delonghi_primadona,handle:0x0010,value:0d06a9f001d7c0",
+				"display": {
+				"forceReturnLineBefore": 1
+				}
+            },
+			{
+				"name": "Profile 2",
+                "type": "action",
+                "subtype": "other",
+                "isVisible": 1,
+                "unite": "",
+                "logicalId": "name:delonghi_primadona,handle:0x0010,value:0d06a9f002e7a3",
+				"display": {
+				"forceReturnLineBefore": 1
+				}
+            },
+			{
+				"name": "Coffee Profile 2",
+                "type": "action",
+                "subtype": "other",
+                "isVisible": 1,
+                "unite": "",
+                "logicalId": "name:delonghi_primadona,handle:0x0010,value:0d0f83f002010100b1020400000ab8bf",
+				"display": {
+				"forceReturnLineBefore": 1
+				}
+            },
+			{
+				"name": "Annuler Profile 2",
+                "type": "action",
+                "subtype": "other",
+                "isVisible": 1,
+                "unite": "",
+                "logicalId": "name:delonghi_primadona,handle:0x0010,value:0d0883f002020a053d",
+				"display": {
+				"forceReturnLineBefore": 1
+				}
+            },
+			{
+				"name": "On",
+                "type": "action",
+                "subtype": "other",
+                "isVisible": 1,
+                "unite": "",
+                "logicalId": "name:delonghi_primadona,handle:0x0010,value:0d07840f02015512",
+				"display": {
+				"forceReturnLineBefore": 1
+				}
+            }
+        ],
+		"compatibility": [
+            {
+                "manufacturer": "Delonghi",
+                "name": "PrimaDona",
+				"doc": "",
+				"type": "Automatisme",
+				"battery_type": "",
+				"ref" : "",
+				"comlink": "",
+				"remark": "",
+				"inclusion" : "Mode inclusion",
+				"imglink": "delonghi_primadona"
+            }
+        ]
+    }
+}
